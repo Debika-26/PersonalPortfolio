@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Debika Ray</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1e9dec3ffe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tech_skills">Technical Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+                
+            <h1>Hi, I'm <span>Debika Ray</span></h1>
+            <p>UI/UX Designer and Font End <br>Web Developer</p>
+        </div>
+    </div>
+</div>
+<!--------------------about----------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/pic3.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I possess a strong drive to learn and grow within the industry.
+                    I am excited to contribute to a team where I can leverage my relevant skills
+                    or strengths to drive innovation and achieve shared goals.I am eager to embark
+                    on a career journey that allows me to apply my knowledge, skills, and enthusiasm.
+                    I am eager to contribute my skills, passion, and dedication to a forward-thinking 
+                    organization that values creativity, innovation, and growth.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('knowledge')">Logical Knowledge</p>
+                    <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                    <p class="tab-links" onclick="opentab('activities')">Extracurricular Activities</p>
+                    <p class="tab-links" onclick="opentab('languages')">Languages Known</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>St. Thomas College of Engineering & Technology (2021-2025)</span><br>-B.Tech in CSE</li>
+                        <li><span>Ispat Nagari Meghnad Saha Madhyamik Vidyalaya (2021)</span><br>-Class XII , Science </li>
+                        <li><span>Durgapur Steel Plant A Zone High School (2019)</span><br>-CLASS X </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="knowledge">
+                    <ul>
+                        <li>-DSA</li>
+                        <li>-DBMS </li>
+                        <li>-OOPS</li>
+                        <li>-OS</li>
+                        <li>-AI</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="achievements">
+                    <ul>
+                        <li>-School<span>Topper </span> in <span>Madhyamik Examination, 2019.</span></li>
+                        <li>-Secured<span>Rank 3 </span> in <span>Higher Secondary Examination in School level, 2021.</span></li>
+                        <li>-Was among the <span>top 5% </span>of the candidates in the first year of college, 2022.</li>
+                        <li>-Stood among the <span>top 50 </span>Campus Ambassadors in Techkriti, IIT Kanpur</li>
+                        <li>-Won <span>1st Prize </span>in the CTS Hackathon at the college level. </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="activities">
+                    <ul>
+                        <li>-Currently serving as Class Representative, facilitating communication between students and faculty and organizing 
+                            class activities. </li>
+                        <li>-Dance </li>
+                        <li>-Drawing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="languages">
+                    <ul>
+                        <li>-English</li>
+                        <li>-Hindi</li>
+                        <li>-Bengali</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-----------technical skills---------------->
+<div id="tech_skills">
+    <div class="container">
+        <h1 class="sub-title">Technical Skills</h1>
+        <div class="tech1">
+            <div>
+               <img src="image/c.jpg" height="150px" width="160">
+            </div>
+            <div>
+                <img src="image/java_final.png" height="150px" width="160">
+            </div>
+            <div>
+                <img src="image/html.jpg" height="150px" width="160">
+            </div>
+        </div>
+        <div class="tech2">
+            <div>
+               <img src="image/c++.jpg" height="150px" width="160">
+            </div>
+            <div>
+                <img src="image/mysql_final.png" height="150px" width="160">
+            </div>
+            <div>
+                <img src="image/css.jpg" height="150px" width="160">
+            </div>
+        </div>
+        <div class="tech3">
+            <div>
+               <img src="image/python.png" height="150px" width="160">
+            </div>
+            <div>
+                <img src="image/vs.png" height="150px" width="160">
+            </div>
+            <div>
+                <img src="image/jss.jpg" height="150px" width="160">
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------projects------------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="proj-list">
+            <div class="proj">
+                <img src="image/portfolio-neon-label-vector-42419990.jpg" >
+                <div class="layer">
+                    <h3>Snake Game</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="proj">
+                <img src="image/tic-tac-toe.jpg" >
+                <div class="layer">
+                    <h3>Snake Game</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="proj">
+                <img src="image/snake game.jpg" >
+                <div class="layer">
+                    <h3>Snake Game</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> debikaray.job@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 6297738683</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/debika-ray-60b146221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/raat_jaga_tara45?igsh=MWlwcGJ1ejExNHY5bQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Debika-26"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="image/DEBIKA RAY RESUME1.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name:" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Debika || All rights reserved </p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxSVZpn8i4Mm9BEXTD67jOGAkCpwFoqYyjG6vLB2gMzrZvq5MiFeGAwCXHYqqpaYbX8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
